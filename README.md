@@ -27,21 +27,31 @@ Customer churn is a major business challenge because losing existing customers c
 
 ## Workflow
 
-1. Load telecom customer data
-2. Clean and preprocess the dataset
-3. Perform exploratory data analysis
-4. Encode categorical variables
-5. Split data into training and testing sets
-6. Train Logistic Regression and Random Forest models
-7. Evaluate model performance
-8. Analyze important features influencing churn
+1. Load telecom customer data  
+2. Clean and preprocess the dataset  
+3. Perform exploratory data analysis  
+4. Encode categorical variables  
+5. Split data into training and testing sets  
+6. Train Logistic Regression and Random Forest models  
+7. Evaluate model performance  
+8. Analyze important features influencing churn  
 
 ## Key Insights
 
-- Customers on month-to-month contracts churn at much higher rates than customers on longer-term contracts
-- Customers with shorter tenure are more likely to leave
-- Higher monthly charges are associated with increased churn risk
-- The dataset shows a meaningful churn rate, making predictive modeling useful for retention planning
+- Customers on month-to-month contracts churn at much higher rates than customers on longer-term contracts  
+- Customers with shorter tenure are more likely to leave  
+- Higher monthly charges are associated with increased churn risk  
+- Approximately 26.5% of customers churn, indicating a significant retention challenge  
+
+## Dataset
+
+This project uses the publicly available Telco Customer Churn dataset from Kaggle:
+
+https://www.kaggle.com/blastchar/telco-customer-churn
+
+Download the dataset and place the CSV file in the project root directory with the name:
+
+WA_Fn-UseC_-Telco-Customer-Churn.csv
 
 ## How to Run
 
