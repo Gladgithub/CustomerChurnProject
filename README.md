@@ -1,2 +1,51 @@
-# CustomerChurnProject
-Built a supervised machine learning pipeline for binary classification using Python and Scikit-learn to predict customer churn. Applied data preprocessing, feature engineering, and model evaluation to identify key factors influencing customer retention.
+# Customer Churn Prediction
+
+This project uses machine learning to predict whether a telecom customer is likely to churn. It applies data preprocessing, exploratory data analysis, and classification models to identify customer retention patterns and key churn drivers.
+
+## Problem Statement
+
+Customer churn is a major business challenge because losing existing customers can reduce revenue and increase acquisition costs. This project aims to:
+- Predict whether a customer is likely to churn
+- Identify the main factors associated with churn
+- Generate insights that support customer retention strategies
+
+## Tools and Technologies
+
+- Python
+- Pandas
+- Matplotlib
+- Scikit-learn
+
+## Machine Learning Concepts Used
+
+- Supervised Learning
+- Binary Classification
+- Data Preprocessing
+- Exploratory Data Analysis (EDA)
+- Model Evaluation
+- Feature Importance Analysis
+
+## Workflow
+
+1. Load telecom customer data
+2. Clean and preprocess the dataset
+3. Perform exploratory data analysis
+4. Encode categorical variables
+5. Split data into training and testing sets
+6. Train Logistic Regression and Random Forest models
+7. Evaluate model performance
+8. Analyze important features influencing churn
+
+## Key Insights
+
+- Customers on month-to-month contracts churn at much higher rates than customers on longer-term contracts
+- Customers with shorter tenure are more likely to leave
+- Higher monthly charges are associated with increased churn risk
+- The dataset shows a meaningful churn rate, making predictive modeling useful for retention planning
+
+## How to Run
+
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
